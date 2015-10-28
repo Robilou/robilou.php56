@@ -1,0 +1,7 @@
+---
+- hosts: freebsd
+  become: yes
+  become_method: sudo 
+  
+  roles:
+  - php56

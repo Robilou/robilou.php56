@@ -1,0 +1,15 @@
+---
+# defaults file for php56
+# php-fpm
+php_fpm_user: www
+php_fpm_group: www
+php_fpm_listen: /var/run/php-fpm.sock
+php_fpm_listen_owner: www
+php_fpm_listen_group: www
+php_fpm_listen_mode: "0660"
+php_fpm_conf_dir: /usr/local/etc/
+
+# php.ini
+php_conf_dir: /usr/local/etc/
+php_cgi_fix_pathinfo: "0"
+php_date_timezone: "Europe/Prague"

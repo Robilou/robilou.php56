@@ -1,0 +1,7 @@
+---
+# handlers file for php56
+- name: start php_fpm
+  action: service name=php-fpm state=started
+
+- name: restart php_fpm
+  action: service name=php-fpm state=restarted
